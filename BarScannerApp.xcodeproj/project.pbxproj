@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB3124B2C09E3F300AA8566 /* BarScannerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3124A2C09E3F300AA8566 /* BarScannerAppApp.swift */; };
+		0AB3124D2C09E3F300AA8566 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3124C2C09E3F300AA8566 /* ContentView.swift */; };
+		0AB3124F2C09E3F500AA8566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB3124E2C09E3F500AA8566 /* Assets.xcassets */; };
+		0AB312522C09E3F500AA8566 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB312512C09E3F500AA8566 /* Preview Assets.xcassets */; };
+		0AB3125C2C09E3F600AA8566 /* BarScannerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3125B2C09E3F600AA8566 /* BarScannerAppTests.swift */; };
+		0AB312662C09E3F600AA8566 /* BarScannerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB312652C09E3F600AA8566 /* BarScannerAppUITests.swift */; };
+		0AB312682C09E3F600AA8566 /* BarScannerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB312672C09E3F600AA8566 /* BarScannerAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AB312582C09E3F600AA8566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AB3123F2C09E3F300AA8566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB312462C09E3F300AA8566;
+			remoteInfo = BarScannerApp;
+		};
+		0AB312622C09E3F600AA8566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AB3123F2C09E3F300AA8566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB312462C09E3F300AA8566;
+			remoteInfo = BarScannerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AB312472C09E3F300AA8566 /* BarScannerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarScannerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB3124A2C09E3F300AA8566 /* BarScannerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarScannerAppApp.swift; sourceTree = "<group>"; };
+		0AB3124C2C09E3F300AA8566 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AB3124E2C09E3F500AA8566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AB312512C09E3F500AA8566 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AB312572C09E3F600AA8566 /* BarScannerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarScannerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB3125B2C09E3F600AA8566 /* BarScannerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarScannerAppTests.swift; sourceTree = "<group>"; };
+		0AB312612C09E3F600AA8566 /* BarScannerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarScannerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AB312652C09E3F600AA8566 /* BarScannerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarScannerAppUITests.swift; sourceTree = "<group>"; };
+		0AB312672C09E3F600AA8566 /* BarScannerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarScannerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AB312442C09E3F300AA8566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB312542C09E3F600AA8566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB3125E2C09E3F600AA8566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB3123E2C09E3F300AA8566 = {
+			isa = PBXGroup;
+			children = (
+				0AB312492C09E3F300AA8566 /* BarScannerApp */,
+				0AB3125A2C09E3F600AA8566 /* BarScannerAppTests */,
+				0AB312642C09E3F600AA8566 /* BarScannerAppUITests */,
+				0AB312482C09E3F300AA8566 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AB312482C09E3F300AA8566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AB312472C09E3F300AA8566 /* BarScannerApp.app */,
+				0AB312572C09E3F600AA8566 /* BarScannerAppTests.xctest */,
+				0AB312612C09E3F600AA8566 /* BarScannerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AB312492C09E3F300AA8566 /* BarScannerApp */ = {
+			isa = PBXGroup;
+			children = (
+				0AB3124A2C09E3F300AA8566 /* BarScannerAppApp.swift */,
+				0AB3124C2C09E3F300AA8566 /* ContentView.swift */,
+				0AB3124E2C09E3F500AA8566 /* Assets.xcassets */,
+				0AB312502C09E3F500AA8566 /* Preview Content */,
+			);
+			path = BarScannerApp;
+			sourceTree = "<group>";
+		};
+		0AB312502C09E3F500AA8566 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0AB312512C09E3F500AA8566 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0AB3125A2C09E3F600AA8566 /* BarScannerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AB3125B2C09E3F600AA8566 /* BarScannerAppTests.swift */,
+			);
+			path = BarScannerAppTests;
+			sourceTree = "<group>";
+		};
+		0AB312642C09E3F600AA8566 /* BarScannerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AB312652C09E3F600AA8566 /* BarScannerAppUITests.swift */,
+				0AB312672C09E3F600AA8566 /* BarScannerAppUITestsLaunchTests.swift */,
+			);
+			path = BarScannerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AB312462C09E3F300AA8566 /* BarScannerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB3126B2C09E3F600AA8566 /* Build configuration list for PBXNativeTarget "BarScannerApp" */;
+			buildPhases = (
+				0AB312432C09E3F300AA8566 /* Sources */,
+				0AB312442C09E3F300AA8566 /* Frameworks */,
+				0AB312452C09E3F300AA8566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarScannerApp;
+			productName = BarScannerApp;
+			productReference = 0AB312472C09E3F300AA8566 /* BarScannerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AB312562C09E3F600AA8566 /* BarScannerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB3126E2C09E3F600AA8566 /* Build configuration list for PBXNativeTarget "BarScannerAppTests" */;
+			buildPhases = (
+				0AB312532C09E3F600AA8566 /* Sources */,
+				0AB312542C09E3F600AA8566 /* Frameworks */,
+				0AB312552C09E3F600AA8566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB312592C09E3F600AA8566 /* PBXTargetDependency */,
+			);
+			name = BarScannerAppTests;
+			productName = BarScannerAppTests;
+			productReference = 0AB312572C09E3F600AA8566 /* BarScannerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AB312602C09E3F600AA8566 /* BarScannerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB312712C09E3F600AA8566 /* Build configuration list for PBXNativeTarget "BarScannerAppUITests" */;
+			buildPhases = (
+				0AB3125D2C09E3F600AA8566 /* Sources */,
+				0AB3125E2C09E3F600AA8566 /* Frameworks */,
+				0AB3125F2C09E3F600AA8566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB312632C09E3F600AA8566 /* PBXTargetDependency */,
+			);
+			name = BarScannerAppUITests;
+			productName = BarScannerAppUITests;
+			productReference = 0AB312612C09E3F600AA8566 /* BarScannerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AB3123F2C09E3F300AA8566 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0AB312462C09E3F300AA8566 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0AB312562C09E3F600AA8566 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0AB312462C09E3F300AA8566;
+					};
+					0AB312602C09E3F600AA8566 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0AB312462C09E3F300AA8566;
+					};
+				};
+			};
+			buildConfigurationList = 0AB312422C09E3F300AA8566 /* Build configuration list for PBXProject "BarScannerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AB3123E2C09E3F300AA8566;
+			productRefGroup = 0AB312482C09E3F300AA8566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AB312462C09E3F300AA8566 /* BarScannerApp */,
+				0AB312562C09E3F600AA8566 /* BarScannerAppTests */,
+				0AB312602C09E3F600AA8566 /* BarScannerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AB312452C09E3F300AA8566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB312522C09E3F500AA8566 /* Preview Assets.xcassets in Resources */,
+				0AB3124F2C09E3F500AA8566 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB312552C09E3F600AA8566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB3125F2C09E3F600AA8566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AB312432C09E3F300AA8566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB3124D2C09E3F300AA8566 /* ContentView.swift in Sources */,
+				0AB3124B2C09E3F300AA8566 /* BarScannerAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB312532C09E3F600AA8566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB3125C2C09E3F600AA8566 /* BarScannerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB3125D2C09E3F600AA8566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB312662C09E3F600AA8566 /* BarScannerAppUITests.swift in Sources */,
+				0AB312682C09E3F600AA8566 /* BarScannerAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AB312592C09E3F600AA8566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB312462C09E3F300AA8566 /* BarScannerApp */;
+			targetProxy = 0AB312582C09E3F600AA8566 /* PBXContainerItemProxy */;
+		};
+		0AB312632C09E3F600AA8566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AB312462C09E3F300AA8566 /* BarScannerApp */;
+			targetProxy = 0AB312622C09E3F600AA8566 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AB312692C09E3F600AA8566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AB3126A2C09E3F600AA8566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AB3126C2C09E3F600AA8566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarScannerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZWKMHV736;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.framework.BarScannerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AB3126D2C09E3F600AA8566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarScannerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZZWKMHV736;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.framework.BarScannerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AB3126F2C09E3F600AA8566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZWKMHV736;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.framework.BarScannerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarScannerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarScannerApp";
+			};
+			name = Debug;
+		};
+		0AB312702C09E3F600AA8566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZWKMHV736;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.framework.BarScannerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarScannerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarScannerApp";
+			};
+			name = Release;
+		};
+		0AB312722C09E3F600AA8566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZWKMHV736;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.framework.BarScannerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarScannerApp;
+			};
+			name = Debug;
+		};
+		0AB312732C09E3F600AA8566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZZWKMHV736;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.framework.BarScannerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarScannerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB312422C09E3F300AA8566 /* Build configuration list for PBXProject "BarScannerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB312692C09E3F600AA8566 /* Debug */,
+				0AB3126A2C09E3F600AA8566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB3126B2C09E3F600AA8566 /* Build configuration list for PBXNativeTarget "BarScannerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB3126C2C09E3F600AA8566 /* Debug */,
+				0AB3126D2C09E3F600AA8566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB3126E2C09E3F600AA8566 /* Build configuration list for PBXNativeTarget "BarScannerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB3126F2C09E3F600AA8566 /* Debug */,
+				0AB312702C09E3F600AA8566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB312712C09E3F600AA8566 /* Build configuration list for PBXNativeTarget "BarScannerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB312722C09E3F600AA8566 /* Debug */,
+				0AB312732C09E3F600AA8566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AB3123F2C09E3F300AA8566 /* Project object */;
+}
